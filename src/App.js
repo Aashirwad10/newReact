@@ -4,6 +4,8 @@ import FirstPage from './pages/FirstPage';
 import SecondPage from './pages/SecondPage';
 import ThirdPage from './pages/ThirdPage';
 import FourthPage from './pages/FourthPage';
+import SearchBox from './pages/SearchBox';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <SecondPage />
       <ThirdPage />
       <FourthPage />
+      <SearchBox />
+      <Footer />
       <NavigationBar /> 
     </div>
   );

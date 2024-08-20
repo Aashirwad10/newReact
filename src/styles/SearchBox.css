@@ -1,0 +1,50 @@
+.rectangle-box {
+    background-color: #ABB8C3; /* Background color */
+    width: 60.5%; /* Full width */
+    height: 100px; /* Height of the rectangle, adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the search container horizontally */
+
+    position: relative;
+    top: 200px;
+    left: 450px;
+    padding: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: white; /* Background color of the search bar */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width of the search bar */
+  }
+  
+  .search-bar {
+    border: none;
+    background: transparent;
+    padding: 8px;
+    flex: 1;
+    font-size: 16px;
+    outline: none; /* Remove default focus outline */
+  }
+  
+  .search-bar:focus {
+    box-shadow: none; /* Remove any box-shadow on focus */
+    border: none; /* Ensure no border is added on focus */
+  }
+  
+  .search-icon {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .search-icon svg {
+    width: 20px;
+    height: 20px;
+    color: #000; /* Icon color */
+  }

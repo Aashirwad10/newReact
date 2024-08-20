@@ -1,0 +1,39 @@
+.footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px; /* Space inside the footer */
+    text-align: center; /* Center-align the text */
+
+    position: relative;
+    top: 250px;
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Max width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer-links {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 10px 0 0; /* Add some margin */
+  }
+  
+  .footer-links li {
+    display: inline; /* Display links in a row */
+    margin: 0 10px; /* Space between links */
+  }
+  
+  .footer-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
