@@ -1,0 +1,118 @@
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; /* Full height of the webpage */
+    width: 20%; /* 20% of the webpage width */
+    background-color: #eae9e7; /* Navigation bar background color */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0; /* Space at the top and bottom */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: column; /* Align the image on top of the text */
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin for a smaller gap */
+    text-align: center;
+}
+
+.logo-image {
+    width: 150px; /* Increase the size of the logo */
+    height: auto;
+    margin-bottom: -10px; /* Reduce space between the image and text */
+}
+
+.nav-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    flex: 1; /* Allow nav-items to take remaining space */
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative; /* To position the expand button */
+}
+
+.nav-item:hover {
+    color: #2f7369; 
+}
+
+.expand-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px; /* Space between text and button */
+    transition: color 0.3s ease;
+}
+
+.expand-button:hover {
+    color: #2f7369; /* Hover effect color */
+}
+
+.sub-nav-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    overflow: hidden; /* Hide overflow to manage animation */
+    transition: max-height 0.3s ease; /* Animation for expanding/collapsing */
+    max-height: 0; /* Initially hidden */
+}
+
+.sub-nav-items.show {
+    display: block;
+    max-height: 200px; /* Adjust based on content */
+}
+
+.sub-nav-item {
+    padding: 10px;
+    background-color: #f5f5f5; /* Background color for sub-items */
+    transition: background-color 0.3s ease;
+    color: black;
+}
+
+.sub-nav-item:hover {
+    color: #2f7369; /* Hover effect color for sub-items */
+}
+
+.nav-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 200px 0; /* Add some padding for the button */
+    margin-top: -80px;
+}
+
+.nav-button {
+    background-color: #2f7369; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #1e5b52; /* Button hover effect color */
+}
+
+.expand-button
+{
+    color: #2f7369;
+    font-size: 0.8em;
+}
